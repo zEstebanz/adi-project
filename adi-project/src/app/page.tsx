@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CalendarToday, Phone, Mail } from "@mui/icons-material";
 import { Button, Card, CardContent, CardHeader, CardActions, Typography, Container, Box } from "@mui/material";
 
-export default function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <Box className="flex flex-col min-h-screen">
       {/* Header */}
@@ -123,3 +123,5 @@ export default function HomePage() {
     </Box>
   );
 }
+
+export default HomePage;
