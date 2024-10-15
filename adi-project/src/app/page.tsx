@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CalendarToday, Phone, Mail } from "@mui/icons-material";
-import { Button, Card, CardContent, CardHeader, CardActions, Typography, Container, Box } from "@mui/material";
+import { Button, Card, CardContent, CardHeader, Typography, Container, Box } from "@mui/material";
 
 const HomePage: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
       <Box component="header" sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', py: 4 }}>
         <Container sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-            <Image src="/placeholder.svg" alt="Logo Municipal" width={40} height={40} className="rounded-full" />
+            <Image src="/placeholder.svg" alt="Logo" width={40} height={40} className="rounded-full" />
             <Typography variant="h4" fontWeight="bold">Municipalidad</Typography>
           </Box>
           <nav>
